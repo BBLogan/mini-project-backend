@@ -5,3 +5,6 @@ __pycache__/
 *.vscode
 # ...
 staticfiles
+dropdowns-workingnotes.txt
+syntaxforms-workingnotes.txt
+bit-by-bitREADME.md
