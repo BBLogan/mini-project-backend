@@ -25,8 +25,6 @@ Groups names and project summaries:
 ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
 ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 
-[![MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
 ---
 
 [About](#about) ✦ [Database Schema](#database-schema) ✦ [Future Developments](#future-developments) ✦ [Resources](#resources) ✦ [License](#license) ✦ [Contact](#contact)
@@ -64,8 +62,7 @@ SO I can see each comment left for individual Cohort Members
 ## Resources
 
 ## License
-This project is using the following license: 
-**MIT**
+This project is using the following license: [![MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 For further information regarding the license, please follow the link below:
 https://opensource.org/licenses/MIT
