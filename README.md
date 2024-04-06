@@ -7,7 +7,7 @@ Groups names and project summaries:
 - First Class Constructors
 - Bit By Bit
 
-## Using the same technology stack as the group project backends:
+## Using the same technology stack:
 [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#)
 [![Django](https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white)](#)
 [![Edge](https://img.shields.io/badge/Edge-0078D7?logo=Microsoft-edge&logoColor=white)](#)
