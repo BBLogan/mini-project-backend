@@ -9,5 +9,8 @@ class FeedbackList(APIView):
         serializer = FeedbackSerializer(feedbacks, many=True)
         return Response(serializer.data)
 
-    def post(self):
-        pass
+    def post(self, request):
+        serializer = FeedbackSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=201)
