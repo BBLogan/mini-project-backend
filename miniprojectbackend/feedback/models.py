@@ -7,13 +7,13 @@ class Feedback (models.Model):
     review_comment = models.TextField(max_length=800)
     team_member_id = models.IntegerField()
     date_created = models.DateTimeField(auto_now_add=True)
-    good_feedback = models.TextField(max_length=800)
-    bad_feedback = models.TextField(max_length=800)
-    other_feedback = models.TextField(max_length=800)
-    is_open = models.BooleanField()
-    is_completed = models.BooleanField()
-    is_archived = models.BooleanField()
-    is_deleted = models.BooleanField()
+    good_feedback = models.TextField(max_length=800, default=None)
+    bad_feedback = models.TextField(max_length=800, default=None)
+    other_feedback = models.TextField(max_length=800, default=None)
+    is_open = models.BooleanField(default=True)
+    is_completed = models.BooleanField(default=False)
+    is_archived = models.BooleanField(default=False)
+    is_deleted = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name
